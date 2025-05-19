@@ -1,0 +1,113 @@
+<DOCTYPE! html>
+<html>
+<head>BIENVENU SUR MON SITE WEB</head>
+<link rel="stylesheet" href="style.css">
+<title>BIENVENU SUR MON SITE WEB</title>
+<body>
+<p>veuillez remplir les formulaires suivants:
+<form method=post action=page2.php>
+<label for=pseudo>votre pseudo:</label></br>
+<input type=text name=pseudo id=pseudo value=M@teo21 size=30 maxlength=10/>
+
+
+</br></p>
+<p><label for=password>password</label></br>
+<input type=password name=password id=password size=25 maxlength=10/></p>
+<p>
+<label for=ameliorer>comment pensez vous que je pourrai ameliorer mon site?</label></br>
+<textarea name=ameliorer id=ameliorer rows=10 cols=10></textarea></p>
+<p>
+cochez les aliments que vous aimiez manger:</br>
+<input type=checkbox name=frites id=frites/><label for=frites>frites</label></br>
+<input type=checkbox name=steak id=steak/><label for=steak>steak</label></br>
+<input type=checkbox name=epinards id=epinards/><label for=epinards>epinards</label></br>
+<input type=checkbox name=huitres id=huitres/><label for=huitres>huitres</label>
+</p>
+<p>
+<input type=radio name=age value=moins15/><label for=moins15>moins de 15 ans </label></br>
+<input type=radio name=age value=medium15-25/><label for=medium15-25>15-25 ans</label></br>
+<input type=radio name=age value=medium25-40/><label for=medium25-40>25-40 ans</label></br>
+<input type=radio name=age value=plus40/><label for=plus40>plus de 40 ans</label></br>
+</p>
+<p>
+sur quel continent habitez vous?</br>
+<input type=radio name=afrique value=afrique id=afrique/><label for=afrique>afrique</label></br>
+<input type=radio name=europe value=europe id=europe/><label for=europe>europe</label></br>
+<input type=radio name=asie value=asie id=asie/><label for=asie>asie</label></br>
+<input type=radio name=australie value=australie id=australie/><label for=australie>austalie</label></br>
+<input type=radio name=amerique value=amerique id=amerique/><label for=amerique>amerique</label>
+</p>
+<p>
+<label for=pays>Dans quelle pays habitez-vous?</label></br>
+<select name=pays id=pays>
+<optgroup label=europe>
+  <option value=france>France</option>
+  <option value=espagne>Espagne</option>
+  <option value=angleterre>Angleterre</option>
+  <option value=portugal>Portugal</option>
+  </optgroup>
+  <optgroup label=afrique>
+  <option value=senegal>Senegal</option>
+  <option value=benin>Benin</option>
+  <option value=nigeria>Nigeria</option>
+  <option value=Ghana>Ghana</option>
+  </optgroup>
+  <optgroup label=amerique>
+  <option value=bresil>Bresil</option>
+  <option value=canada>Canada</option>
+  <option value=colombie>Colombie</option>
+  </optgroup>
+</select>
+</p>
+<fieldset>
+<legend>vos coordonnées</legend>
+<label for=nom>Quel est votre nom?</label></br>
+<input type=text name=nom id=nom tabinex=10/></br>
+
+<label for=prenom>quel est votre prenom</label></br>
+<input type=text name=prenom id=prenom tabinex=20/></br>
+
+<label for=email>quel est votre email?</label></br>
+<input type=texte name=email id=email tabinex=30/></br>
+</fieldset>
+<fieldset>
+<legend>votre souhait</legend>
+<p>
+  faites un souhait que vous voudriez voir être exaucé:</br>
+<input type=radio name=souhait value=riche id=riche tabinex=40/><label for=riche>Etre riche</label></br>
+<input type=radio name=souhait value=intelligent id=intelligent tabinex=60/><label for=intelligent>etre<strong>Encore</strong>plus intelligent</label></br>
+<input type=radio name=souhait value=aure tabinex=70/><label for=autre>Autre...</label></br>
+</p>
+<textarea name=precision id=precision cols=40 rows=4 tabinex=80></textarea>
+</p>
+</fieldset>
+<fieldset>
+<legend>Etat civil</legend>
+<p>
+<input type=radio name=Etat civil value=matricule id=matricule tabinex=20/><label for=matricule>MATRICULE</label>   <input type=radio name=Etat civil value=nom id=nom tabinex=20/><label for=nom>NOM</label></br>
+<input type=radio name=Etat civile value=prenom id=prenom tabinex=20/><label for=prenom>PRENOM</label>   <input type=radio name=Etat civil value=sexe id=sexe tabinex=20/><label for=sexe>SEXE</label></br>
+<input type=radio name=Etat civile value=naissance id=naissance tabinex=20/><label for=naissance>DATE DE NAISSANCE</label>  <input type=radio name=Etat civile value=age id age tabinex=20/><label for=age>AGE</label>
+</p>
+</fieldset>
+<fieldset>
+<legend> vos diplômes</legend>
+<p>
+<input type=checkbox name=cep id=cep/><label for=cep>CEP</label>  <input type=checkbox name=bepc id=bepc/><label for=bepc>BEPC</label>  <input type=checkbox name=bac id=bac><label for=bac>BAC</label>
+</p>
+</fieldset>
+<fieldset>
+<legend>Expertise</legend>
+<p>
+<input type=radio name=ex value=ex tabinex=20/><label for=ex>Expert en IA</label>  <input type=radio name=et id=et tabinex=20/><label for=et>Expert en web</label>
+</p>
+</fieldset>
+
+   <fieldset>
+   <legend>Les boutons</legend>
+   <p>
+     <input type=submit value=Envoyer /> <input type=reset value= reprendre /> <input type=button value=quitter onclick=window close/>
+</p>
+    </fieldset>
+</form>
+</body>
+</html>

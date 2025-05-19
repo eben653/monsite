@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+<title>MON SITE</title>
+<head><h1>BIENVENU SUR MON SITE!</h1>
+<style>
+pas_de_retrait{
+list-style-position: inside;
+}
+.retrait{
+list-style-position:outside;
+}
+.cercle{
+list-style-type: circle;
+}
+.carre{
+list-style-type: square;
+}
+.rien{
+list-style-type: none;
+}
+.commence_a_zero{
+list-style-type: decimal-leading-zero;
+}
+.lettres_minuscules{
+list-style-type: lower-alpha;
+}
+.chiffres_romains{
+list-style-type: upper-roman;
+}
+.lettres_grecques{
+list-style-type: lower-greek;
+}
+h2{
+text-indent: 20px; font-family: Arial, Verdana, "Times New Roman", serif;
+}
+em{
+background-color: yellow;
+}
+strong{
+color: red;
+}
+p{
+width: 50%;
+text-align: justify;
+}
+p#premier{
+margin-bottom: 0; margin-top: 0px; margin-left: 3em; width: 100px; background: orange;
+}
+p#second{ 
+position: relative; left: 20px; bottom: 15px; margin-top: 0; margin-left: 3em; width: 150px; height: 50px; background: green
+}
+div {
+width: 300px; height: 200px; background: yellow;
+}
+p{
+margin: 0;
+}
+p#set1{
+width: 100px; background: orange;
+}
+p#set2 { 
+position: absolute; top: 0;left: 0; width: 150px; height: 50px; background: green;
+}
+body{
+background-color: black; color: white;
+}
+</style></head>
+<body>
+<h2 style=color:blue;text=align:center;>Liste non ordonné</h2>
+<p>Voici quelques listes non ordonnées sans modification(=<em>disc</em>)
+<ul>
+  <li>je me lève</li>
+  <li>je mange et je bois</li> 
+  <li>je retourne me coucher</li>
+<p>Avec<em>circle</em>
+  <ul class=cercle>
+     <li>je me lève</li> 
+     <li> je mange et je bois</li>
+     <li> je retourne me coucher</li>
+  <ul></p>
+<h2> quelques listes ordonnées</h2>
+<ol>
+<p>liste à puces sans modification(<em>decimal</em>)</p>
+<li>un</li>
+<li>deux</li>
+<li>trois</li>
+</ol>
+<p>
+ <dl>
+<dt>Chat</dt>
+<dd>Animal à 4 pattes qui fait "Miaou !"</dd>
+<dt>Chien</dt>
+<dd>Animal à 4 pattes qui fait "Ouaf Ouaf !"</dd>
+<dt>Prof de maths</dt>
+<dd>Personne qui enseigne des choses que personne ne comprend</dd>
+</dl>
+</p>
+<p>voici une liste de retrait( par défaut):
+<p>Voici une liste avec retrait (par défaut) :</p>
+<ul class="retrait">
+<li>Liste<br />à puces</li>
+<li>Ligne 1<br />Ligne 2</li>
+<li>Vous pouvez voir<br />que le texte est décalé sur la droite</li>
+</ul>
+<p>Voici une liste sans retrait :</p>
+<ul class="pas_de_retrait">
+<li>Liste<br />à puces</li>
+<li>Ligne 1<br />Ligne 2</li>
+<li>Vous pouvez voir<br />que le texte n'est pas decale a droite</li>
+</ul>
+h2>Quelques listes non ordonnées</h2>
+<p>Voici une liste à puce non ordonnée sans modification (= <em>disc</em>) :</p>
+<ul>
+<li>Liste</li>
+<li>à</li>
+<li>puces</li>
+</ul>
+<p>Avec <em>circle</em> :</p>
+<ul class="cercle">
+<li>Liste</li>
+<li>à</li>
+<li>puces</li>
+</ul>
+<p>Avec <em>square</em> :</p>
+<ul class="carre">
+<li>Liste</li>
+<li>à</li>
+<li>puces</li>
+</ul>
+p>Avec <em>none</em> (sans puces) :</p>
+<ul class="rien">
+<li>Liste</li>
+<li>à</li>
+<li>puces</li>
+</ul>
+<h2>Quelques listes non ordonnées</h2>
+<p>Voici une liste à puce non ordonnée sans modification (= <em>disc</em>) :</p>
+<ul>
+<li>Liste</li>
+<li>à</li>
+<li>puces</li>
+</ul>
+<p>Avec <em>circle</em> :</p>
+<ul class="cercle">
+<li>Liste</li>
+<li>à</li>
+<li>puces</li>
+</ul>
+<p>Avec <em>square</em> :</p>
+<ul class="carre">
+<li>Liste</li>
+<li>à</li>
+<li>puces</li>
+</ul>
+<p>Avec <em>none</em> (sans puces) :</p>
+<ul class="rien">
+<li>Liste</li>
+<li>à</li>
+<li>puces</li>
+</ul>
+<h2>Quelques listes ordonnées</h2>
+<p>Liste à puces ordonnée sans modification (= <em>decimal</em>)</p>
+<ol>
+<li>Un</li>
+<li>Deux</li>
+<li>Trois</li>
+<li>Quatre</li>
+</ol>
+<p>Avec <em>decimal-leading-zero</em> (<strong>Ne fonctionne pas sous IE)</strong>) :</p>
+<ol class="commence_a_zero">
+<li>Un</li>
+<li>Deux</li>
+<li>Trois</li>
+<li>Quatre</li>
+</ol>
+<p>Avec <em>lower-alpha</em> :</p>
+<ol class="lettres_minuscules">
+<li>Un</li>
+<li>Deux</li>
+<li>Trois</li>
+<li>Quatre</li>
+</ol>
+<p>Avec <em>upper-roman</em> :</p>
+<ol class="chiffres_romains">
+<li>Un</li>
+<li>Deux</li>
+<li>Trois</li>
+<li>Quatre</li>
+</ol>
+<p>Avec <em>lower-greek</em> (<strong>Ne fonctionne pas sous IE</strong>) :</p>
+<ol class="lettres_grecques">
+<li>Un</li>
+<li>Deux</li>
+<li>Trois</li>
+<li>Quatre</li>
+</ol>
+<div>
+<p id=“premier”>premier paragraphe de texte</p>
+<p id=“second”>deuxième paragraphe de texte</p>
+</div>
+<div>
+<p id="set1">premier paragraphe de texte</p>
+<p id="set2">deuxième paragraphe de texte</p>
+</div>
+
+</body>
+</html>

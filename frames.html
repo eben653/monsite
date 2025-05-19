@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<title>acceuil html!</title>
+<head>ACCEUIL HTML!</head>
+<link rel="stylesheet" href="style.css">
+<style>
+head{
+text-align:center;
+}
+table{
+border-collapse:collapse; color:red; background:black
+}
+td{
+border:5px solid blue; padding:65px
+}
+#container {
+display: flex;
+width: 100%;
+}
+#navbar {
+width: 30%;
+background-color: #f4f4f4;
+padding: 10px;
+box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+}
+#navbar a {
+display: block;
+margin: 10px 0;
+text-decoration: none;
+color: #333;
+padding: 8px;
+border-radius: 4px;
+}
+#navbar a:hover {
+background-color: #ddd;
+}
+#content {
+width: 70%;
+padding: 20px;
+}
+iframe {
+width: 100%;
+height: 80vh; /* Hauteur de l'iframe */
+border: none;
+}
+</style>
+<body>
+<p>
+<table>
+  <tr>
+   <td><img src=uac.png width=100</td>
+   <td>BIENVENU SUR MON SITE!</br></td>
+    <td><img src=eneam.png width=150</td>
+  </tr>
+</table>
+</p>
+<p>
+<div id="container">
+<!-- Barre de navigation -->
+<div id="navbar">
+<a href="page1.html" target="contentFrame">Page 1</a>
+<a href="page2.html" target="contentFrame">Page 2</a>
+<a href="page3.html" target="contentFrame">Page 3</a>
+<a href=page4.html target=contentFrame>page4</a>
+<a href=page5.html target=contentFrame>page5</a>
+<a href=page6.html target=contentFrame>page6</a>
+</div>
+
+<div id="content">
+<iframe name="contentFrame" src="page1.html"></iframe>
+</div>
+</div>
+</p>
+</body>
+
+</html>
